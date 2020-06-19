@@ -1,0 +1,80 @@
+html.body {
+    margin: 0;
+}
+
+html {
+    background: #2c3e50;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    line-height: 1.6;
+    text-align: center;
+    height: 3000px;
+}
+
+.flex-container {
+    margin: 1em 0;
+    border: 1px solid white;
+}
+
+.flex-container div {
+  
+    border: 2px solid red;
+}
+
+h1,
+h2,
+h3 {
+    color: white;
+    margin: 0;
+    line-height: 1;
+    font-family: 'Asap', sans-serif;
+
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.flex-container{
+    
+   display: flex;
+    height: 300px;
+    
+   
+}
+.flex-container div{
+    flex-grow:2;
+}
+.flex-item-1{
+
+}
+
+.flex-item-2{
+   
+}
+
+.flex-item-3{
+    flex-grow:4 !important;
+}
+
+.flex-item-4{
+    
+}
